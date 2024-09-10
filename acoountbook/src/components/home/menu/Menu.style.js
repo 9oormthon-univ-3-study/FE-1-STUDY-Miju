@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 800px;
-
   display: flex;
   gap: 10px;
 
-  margin: 0 auto;
   padding: 20px;
 
   background-color: white;
