@@ -10,7 +10,8 @@ export const Button = styled.button`
   font-size: 18px;
   font-weight: 600;
 
-  background-color: #f5f5f5;
+  background-color: ${(props) => (props.isSelected ? "#92b1d4" : "#f5f5f5")};
+  color: ${(props) => (props.isSelected ? "white" : "black")};
 
   &:hover {
     color: white;
