@@ -9,7 +9,7 @@ export default function ContentItem({ date, category, content, price }) {
           {category} - {content}
         </C.Content>
       </div>
-      <C.Price>{price}</C.Price>
+      <C.Price>{price.toLocaleString()}원</C.Price>
     </C.Container>
   );
 }

@@ -3,7 +3,7 @@ import * as M from "./Month.style";
 import MonthItem from "./MonthItem";
 
 export default function Month({ months, onMonthSelect }) {
-  const [selected, setSelected] = useState();
+  const [selected, setSelected] = useState(1);
 
   const handleClick = (month) => {
     setSelected(month);
